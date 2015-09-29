@@ -1,0 +1,2 @@
+class SelfiesController < ApplicationController
+end
