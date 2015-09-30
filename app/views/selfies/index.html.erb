@@ -1,1 +1,14 @@
-<h1>Selfies index page</h1>
+<div class="text-center">
+    <h1>Selfies</h1>
+    <hr class="title-hr">
+    <br />
+    
+    <% @selfies.each do |selfy| %>
+        <div class="col-xs-4">
+            <h2><%= selfy.title %></h2>
+            <h3><em><%= selfy.description %></em></h3>
+            <hr class="selfie-hr">
+        </div>
+    <% end %>
+    
+</div>

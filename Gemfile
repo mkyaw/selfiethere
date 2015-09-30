@@ -25,5 +25,6 @@ end
 
 group :test do
   gem 'capybara'
+  gem 'selenium-webdriver', '~> 2.47.1'
 end
 
