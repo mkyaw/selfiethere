@@ -1,3 +1,5 @@
+# spec/features/user_visits_homepage_spec.rb
+
 require "rails_helper"
 
 RSpec.feature "User visits homepage", :type => :feature do
